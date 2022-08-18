@@ -64,6 +64,7 @@ subprojects {
 
     dependencies {
       implementation enforcedPlatform("io.spinnaker.kork:kork-bom:$korkVersion")
+      implementation "javax.validation:validation-api"
 
       annotationProcessor platform("io.spinnaker.kork:kork-bom:$korkVersion")
       annotationProcessor "org.projectlombok:lombok"
